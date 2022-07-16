@@ -1,24 +1,36 @@
 
 #include <iostream>
+
+using namespace std;
+
 #include <string>
+
 #include <vector>
+
 #include <algorithm>
 
-main()
+#include <fstream>
+
+
+
+
+int main()
 {
 
-int usrname;
+	int usrname;
+	int password;
 
-cout << "login" << endl;
-cin >> usrname 
+	system("CIA: Decripting Test.");
 
-cout << "welcome " << usrname << endl;
-cout << endl;
-cout << endl;
-cout << "this program is meant to test whether you are able to decrpt messages and find are messages. you will be given 10 sectret messages to decript,
-if you fail you'll be sent back to the beginning of training." << endl;
-count << endl;
-cout << "lets start" << endl;
+	cout << "login" << endl;
+	cin >> usrname;
+	cout << "password" << endl;
+	cin >> password;
 
-
+	cout << "welcome " << usrname << endl;
+	cout << endl;
+	cout << endl;
+	cout << "this program is meant to test whether you are able to decrpt messages and find are messages. you will be given 10 sectret messages to decript, if you fail you'll be sent back to the beginning of training." << endl;
+	cout << endl;
+	cout << "lets start" << endl;
 }
