@@ -11,18 +11,20 @@ using namespace std;
 
 #include <fstream>
 
+#include <ctime>
+
+#include <cctype>
+
 
 
 
 int main()
 {
 
+constant int max_guess=5
+
 	int usrname;
 	int password;
-
-	
-
-
 	
 	
 	// Display Title of the program to the user
@@ -38,28 +40,32 @@ int main()
 	cout << "welcome " << usrname << endl;
 	cout << endl;
 	cout << endl;
-	cout << "this program is meant to test whether you are able to decrpt messages and find are messages. you will be given 10 sectret messages to decript, if you fail you'll be sent back to the beginning of training." << endl;
-	cout << endl;
-	cout << "lets start" << endl;
+
 	
 	// Display an overview of what Keywords II is to the recruit 
-	int bomb
-	int spy;
-	int killer;
-	int hidout;
-	int government;
-	int disease;
-	int poison;
-	int harddrive;
-	int location;
-	int leader;
+	cout << "this program is meant to test whether you are able to decrpt codes and find the secret messages. you will be given 10 sectret messages to decript, if you fail you'll be sent back to the beginning of training. you have 5 tries, good luck!" << endl;
+	cout << endl;
+	cout << "" << endl;
+	
+
 
 	// Display directions to the recruit on how to use Keywords
 	cout << "" << endl;
  
 
 	// Create a collection of 10 words you had written down manually
-
+	vector<strings>words;
+	words.pushback("bomb");
+	words.pushback("spy");
+	words.pushback("killer");
+	words.pushback("hidout");
+	words.pushback("government");
+	words.pushback("disease");
+	words.pushback("poison");
+	words.pushback("harddrive");
+	words.pushback("location");
+	words.pushback("leader");
+	
 	// Create an int var to count the number of simulations being run starting at 1
 
 	// Display the simulation # is starting to the recruit. 
