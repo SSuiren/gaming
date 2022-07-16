@@ -1,0 +1,24 @@
+
+#include <iostream>
+#include <string>
+#include <vector>
+#include <algorithm>
+
+main()
+{
+
+int usrname;
+
+cout << "login" << endl;
+cin >> usrname 
+
+cout << "welcome " << usrname << endl;
+cout << endl;
+cout << endl;
+cout << "this program is meant to test whether you are able to decrpt messages and find are messages. you will be given 10 sectret messages to decript,
+if you fail you'll be sent back to the beginning of training." << endl;
+count << endl;
+cout << "lets start" << endl;
+
+
+}
