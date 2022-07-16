@@ -43,14 +43,11 @@ constant int max_guess=5
 
 	
 	// Display an overview of what Keywords II is to the recruit 
-	cout << "this program is meant to test whether you are able to decrpt codes and find the secret messages. you will be given 10 sectret messages to decript, if you fail you'll be sent back to the beginning of training. you have 5 tries, good luck!" << endl;
-	cout << endl;
-	cout << "" << endl;
+	cout << "this program is meant to test whether you are able to decrpt codes and find the secret messages." << endl;
+	cout << endl;	
 	
-
-
 	// Display directions to the recruit on how to use Keywords
-	cout << "" << endl;
+	cout << " you will be given 10 sectret messages to decript, if you fail you'll be sent back to the beginning of training. you have 5 tries, good luck!" << endl;
  
 
 	// Create a collection of 10 words you had written down manually
