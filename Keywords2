@@ -164,8 +164,10 @@ int main()
 
 		if (simulations < 3)
 		{
-			cout << " but it's not over " << usrname << " go again" << endl;
-			
+			char ready;
+			cout << " but it's not over " << usrname << " ready to go again?" << endl;
+			cin >> ready;
+
 			cin.clear(); //clear and ignore cin
 			cin.ignore();
 
@@ -175,7 +177,7 @@ int main()
 			++simulations;
 
 			//Move program execution back up to // Display the simulation # is starting to the recruit. 
-			return 100;
+			
 		}
 		else if (simulations >= 3)
 		{
@@ -268,3 +270,4 @@ char askGuess(string usedLettersStr)
 
 	return guess;
 }
+
