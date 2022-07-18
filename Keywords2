@@ -77,7 +77,7 @@ int main()
 	words.push_back("bomb");
 	words.push_back("spy");
 	words.push_back("killer");
-	words.push_back("hidout");
+	words.push_back("hideout");
 	words.push_back("government");
 	words.push_back("disease");
 	words.push_back("harddrive");
@@ -99,7 +99,11 @@ int main()
 	cout << "the simulation will begin when you press any key" << endl;
 	cin >> key;
 
-// While recruit hasn’t made too many incorrect guesses and hasn’t guessed the secret word
+	cout << "here is a list of words that may be the answer, but they are mixed up" << endl;
+
+	cout << "bmbo, pys, kliler, hediout, govrenment, deseasi, hradrdvie, lcaitono, laedre" << endl;
+
+	// While recruit hasn’t made too many incorrect guesses and hasn’t guessed the secret word
 	while ((Max_wrong > wrong ) && ( sofar != The_word))
 	{
 		// Tell recruit how many incorrect guesses he or she has left
@@ -217,12 +221,14 @@ inline bool match(char letter, string word)
 char askGuess(string usedLettersStr)
 {
 	char guess;
-
 	// Create an int var to count the number of simulations being run starting at 1
+	
 	cout << "simulation number: " << simulations << endl;
 	//Move program execution back up to // Display the simulation # is starting to the recruit. 
+	
 	cout << "Enter your guess: ";
 	cin >> guess;
+	
 	guess = tolower(guess); //make uppercase since secret word in uppercase
 	//while (used.find(guess) != string::npos)
 	while (match(guess, used))
